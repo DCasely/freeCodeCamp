@@ -1,23 +1,39 @@
-#main {
-  width: 50%;
-  margin: auto;
+body {
+  margin: 0;
+  line-height: 2;
+  text-align: center;
+  font-size: 1.1rem;
 }
 
-#title {
-  text-align: center;
+#image {
+  border: solid black;
+  margin-top: 1%;
 }
 
 #img-div {
-  text-align: center;
+  background: white;
+  width: 95%;
+  margin: auto;
+}
+
+#image-caption {
+  padding-bottom: 1%;
+}
+
+#main {
+  background-color: lightgray;
+  height: 95vh;
+  width: 90%;
+  margin: auto;
 }
 
 img {
-  width: 50%;
+  width: 25%;
+  padding: 2%;
   max-width: 600px;
 }
 
 h2 {
-  text-align: center;
 }
 
 ul {
@@ -31,6 +47,7 @@ ul {
   margin: auto;
 }
 
-#tribute-quote {
-  text-align: center;
+#tribute-quote p {
+  max-width: 600px;
+  margin: 2.5% auto;
 }
